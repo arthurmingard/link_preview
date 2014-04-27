@@ -349,7 +349,7 @@
 				$link->setAttribute('target', '_blank');
 			}
 			
-			$link->setValue($url);
+			$link->setValue('Preview');
 			
 			return $link->generate();
 		}
